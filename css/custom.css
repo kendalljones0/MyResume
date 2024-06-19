@@ -1,0 +1,74 @@
+*{
+    padding:10px;
+    margin:5px;
+}
+
+body{
+    color: black;
+    font-family:'Georgia', 'Times New Roman', 'Times', 'serif';
+    background-color:seashell;
+    padding:5px;
+    margin: 20px;
+}
+h1{
+    color:black;
+    font-size:100px;
+    font-weight:lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    text-align: center;
+    text-decoration: underline;
+    opacity:100%
+}
+h3{
+    color:black;
+    font-size:50px;
+    font-weight:lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h4{
+    text-align:center;
+}
+h5{
+    color:black;
+    font: size 30px;
+    font-weight:lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.container{
+    position: relative;
+}
+
+.header{
+    border:5px solid black;
+    padding: 0px;
+    background-color: rgb(246, 246, 84)
+}
+
+.leftmenu{
+    background-color: rgb(241, 240, 225);
+    border:5px solid black;
+    float:left;
+    width:27%;
+    padding:25px
+}
+
+.mainbody{
+    background-color:rgb(241, 240, 225);
+    border:5px solid black;
+    float: left;
+    width: 32%;
+    padding:25px
+}
+
+.rightmenu{
+    background-color: rgb(241, 240, 225);
+    border:5px solid black;
+    float: right;
+    width: 27%;
+    padding:25px
+}
+
